@@ -12,12 +12,16 @@ h2, h4, p {
 }
 
 .navbar {
+  background-color: #333333;
+}
+
+.navbar ul {
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
-  display: flex;
 }
+
 
 .navbar a {
   display: block;
@@ -31,40 +35,20 @@ h2, h4, p {
 }
 hr {
   border-top: 3px dotted gold;
-  border-bottom : 0px;
-
-/*.vbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
+  border-bottom: 0px;
 }
 
-.vbar a {
-  display: block;
-  color: black;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-/* Change the link and background color on hover */
-.vbar a:hover {
-  background-color: #555555;
-  color: white;
-}
-*/
 .vbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #f1f1f1;
+  background-color: #333333;
 }
 
 .vbar li a {
   display: block;
-  color: black;
+  color: white;
   padding: 8px 16px;
   text-decoration: none;
 }
@@ -73,4 +57,3 @@ hr {
 .vbar li a:hover {
   background-color: #555555;
   color: white;
-}
