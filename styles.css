@@ -33,7 +33,7 @@ hr {
   border-top: 3px dotted gold;
   border-bottom : 0px;
 
-.vbar ul {
+/*.vbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -50,6 +50,27 @@ hr {
 
 /* Change the link and background color on hover */
 .vbar a:hover {
+  background-color: #555555;
+  color: white;
+}
+*/
+.vbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+.vbar li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link and background color on hover */
+.vbar li a:hover {
   background-color: #555555;
   color: white;
 }
