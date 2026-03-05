@@ -8,17 +8,17 @@ img {
   margin: 15px;
 }
 
+tr:hover {background-color: #D6EEEE;}/*https://www.w3schools.com/html/html_table_styling.asp*/
+
 h1, h2, h3, h4, p, li {
   margin: 10px;
   color: white;
 }
 /*styles pour les tables*/
-table, th, td {
-  border:1px solid rgb(255, 255, 255);
+table, td, th {
+  border: 1px solid white;
 }
-th, td {
-	color: white;
-}
+
 
 /*style de la bare de navigation d'en haut*/
 .navbar {
