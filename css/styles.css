@@ -3,16 +3,21 @@ body {
   padding: 0;
 }
 
+
 img {
   margin: 15px;
 }
-/*la couleure des liens*/
-a {
-  color: #22EFF2;
-}
+
 h1, h2, h3, h4, p, li {
   margin: 10px;
   color: white;
+}
+/*styles pour les tables*/
+table, th, td {
+  border:1px solid rgb(255, 255, 255);
+}
+th, td {
+	color: white;
 }
 
 /*style de la bare de navigation d'en haut*/
