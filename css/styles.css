@@ -24,7 +24,6 @@ table, td, th {
 .navbar {
   display: flex;
   justify-content: flex-end;/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
-  width: 100%;
 }
 
 /*https://www.w3schools.com/css/css_navbar.asp*/
@@ -75,4 +74,3 @@ hr {
   background-color: #252525;
   color: white;
 }
-
