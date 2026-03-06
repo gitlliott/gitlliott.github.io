@@ -3,13 +3,12 @@ body {
   padding: 0;
 }
 
-
+/*metre des marges aux images*/
 img {
   margin: 15px;
 }
 
-tr:hover {background-color: #D6EEEE;}/*https://www.w3schools.com/html/html_table_styling.asp*/
-
+/*mes styles de texte*/
 h1, h2, h3, h4, p, li {
   margin: 10px;
   color: white;
@@ -21,20 +20,21 @@ table, td, th {
 
 
 /*style de la bare de navigation d'en haut*/
+/*metre la bare de navigation a gauche*/
 .navbar {
   display: flex;
   justify-content: flex-end;/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 }
 
 /*https://www.w3schools.com/css/css_navbar.asp*/
+/*enlevé le point et la marge du "un-orderd list"*/
 .navbar ul {
-  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-
+/*styles du text de la bare de navigation*/
 .navbar a {
   display: block;
   color: white;
@@ -47,11 +47,13 @@ table, td, th {
   background-color: #111111;
 }
 */
+
+/*ligne pointé rouge*/
 hr {
   border-top: 3px dotted #870000;
   border-bottom: 0px;
 }
-
+/*enlevé le point et la marge du "un-orderd list"*/
 .vbar ul {
   list-style-type: none;
   margin: 0;
@@ -59,7 +61,7 @@ hr {
   width: 200px;
   background-color: #000000;
 }
-
+/*styles du text de la bare de navigation*/
 .vbar li a {
   display: block;
   color: white;
@@ -67,7 +69,7 @@ hr {
   text-decoration: none;
 }
 
-/* Change the link and background color on hover */
+/* Changé la couleur quand le curseur est sur le lien */
 .vbar li a:hover {
   background-color: #252525;
   color: white;
